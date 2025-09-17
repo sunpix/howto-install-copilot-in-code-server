@@ -5,7 +5,13 @@ Installs GitHub Copilot and Copilot Chat extensions in code-server by automatica
 ## Usage
 
 ```bash
-./install-copilot.sh
+chmod +x install-copilot.sh && ./install-copilot.sh
+```
+
+Or run directly:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sunpix/howto-install-copilot-in-code-server/refs/heads/main/install-copilot.sh | bash
 ```
 
 ## Requirements
